@@ -8,7 +8,7 @@ $result=curl_exec($ch);if($result){$object=json_decode(str_replace(")]}'","",$re
 // DOWNLOAD URL
 $dl=$object->downloadUrl;
 
-// GET NAMEFILE
+// GET FILENAME
 $nm=$object->fileName;
 
 // GET SIZE
